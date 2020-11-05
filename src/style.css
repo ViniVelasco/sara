@@ -1,0 +1,221 @@
+/* CORPO */
+body{
+    font-family: sans-serif;
+    color: black;
+     background-color: #ccc;
+width: 100%;
+height: 100%;
+
+}
+
+
+
+
+.logo{
+    padding: 9px;
+   max-width: 200px;
+   max-height: 150px;
+   width: 70px;
+   
+}
+
+
+h1, h2, h3{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+
+}
+
+/* Naveção*/
+.forms{
+    background-color: #e2dede; /* parte inferior*/
+
+
+}
+
+.menu-top{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 9px 0 ;
+    text-align: center;
+
+}
+
+
+nav {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0f4098;
+    
+    
+}
+
+nav > a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 32px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        width: 100%; 
+}
+nav ul li{
+         width: 100%;
+         text-align: center;
+}
+
+nav ul li a{
+            display: inline-block;
+            padding: 10px 0;
+            width: 100%;
+            text-decoration: none;
+            color: #ffffff;
+
+}
+
+
+/* Cabeçalho*/
+header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("img/fundo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px;
+    }
+
+header h1{
+    color: #ffffff;
+}
+
+
+header p{
+    margin-bottom: 2em;
+
+}
+
+
+/*Medidas para demais dispositos */ 
+@media screen and (min-width: 768px) { 
+
+nav {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul {
+
+    flex-direction: row;
+    width: 70%;
+
+}
+header {
+   
+    height: 600px;
+    height: 60vh;
+    justify-content: center;
+}
+ }
+
+#fotos img{
+    width: 33.3333333%;
+}
+
+
+/* Formulario de login*/
+
+.form {
+   
+  width: 400px;
+   margin: left;
+   padding-left: 600px;/* Para colocar a direita utilizar padding-right*/
+   padding-top: 60px;
+   padding-bottom: 50px;
+
+}
+
+.card {
+
+    box-shadow: 1px 1px 5px #f7f7f7;
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 20px; 
+}
+
+
+
+.card-top {
+    text-align: center;
+
+}
+
+.card-grupo{
+
+    margin-bottom: 10px;
+   }
+.card-grupo > label{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    
+}
+
+.card-grupo >input{
+border-radius:  5px;
+outline: 0;
+width: 100%;
+height: 20px;
+padding-top: 5px;
+padding: 5px;
+
+
+}
+
+.card-grupo> button{
+    background-image: linear-gradient(to right, #001c50, #2d5aa8);
+    width: 100%;
+    border-radius: 30px;
+    padding: 13px;
+    border: 0px;
+    outline: 0;
+    margin-top: 10px;
+    color: white;
+
+
+
+}
+.btn button:hover{ 
+    background-image: linear-gradient(to right, #2d5aa8, #001c50);
+}
+
+
+.imglogin{
+    border-radius: 150px;
+    width: 200px;
+    box-shadow:  #6e353d;
+}
+
+.titleLogin{
+    color: #000000;
+}
+
+
